@@ -5,13 +5,13 @@
 #define DHTPIN D1
 #define DHTTYPE DHT11
 
-const char* ssid = "HUAWEI-E5172-E9FC";
-const char* password = "0M65JFMA5BA";
+const char* ssid = "Wifi SSIS";
+const char* password = "password";
 WiFiClient  client;
-unsigned long myChannelNumber = 377981;
+unsigned long myChannelNumber = ID_CHANNEL;
 //unsigned long myChannelNumber = CHANNEL_ID;
 
-const char* myWriteAPIKey = "NG511VC425ICKQQL";
+const char* myWriteAPIKey = "API Key";
 
 DHT dht(DHTPIN, DHTTYPE);
 
